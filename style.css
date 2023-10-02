@@ -5,6 +5,7 @@ body {
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
+  text-align: center;
 }
 
 header, footer {
@@ -17,12 +18,10 @@ h1, h2, h3 {
 
 h1 {
   font-size: 36px;
-  text-align: center;
 }
 
 h2 {
   font-size: 30px;
-  text-align: center;
 }
 
 h3 {
@@ -34,7 +33,6 @@ article {
 }
 
 article div {
-  text-align: center;
   width: 100%;
 }
 
