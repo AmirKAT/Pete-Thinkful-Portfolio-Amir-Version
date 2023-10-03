@@ -5,16 +5,15 @@ body {
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
-  text-align: left;
+  text-align: center; 
 }
 
-header, footer {
+header, footer, nav ul, section {
   text-align: center;
 }
 
 h1, h2, h3 {
   font-family: "Playfair Display", Times, serif;
-  text-align: center;
 }
 
 h1 {
@@ -33,13 +32,8 @@ article {
   padding: 50px 0;
 }
 
-article div {
-  width: 100%;
-}
-
 p {
   line-height: 1.5;
-  text-align: left;
 }
 
 div {
@@ -76,7 +70,6 @@ nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  text-align: center;
 }
 
 nav li {
@@ -84,6 +77,7 @@ nav li {
   margin-right: 20px;
 }
 
-ul {
+ul, ol {
   text-align: left;
+  display: inline-block;
 }
